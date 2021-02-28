@@ -4,10 +4,10 @@ import pandas as pd
 def get_key_names():
     return ['positionId', 'city', 'companyShortName', 'companyId', 'companySize', 'createTime', 'education',
             'famousCompany', 'financeStage', 'industryField', 'salary', 'salaryMonth', 'workYear',
-            'jobNature', 'positionAdvantage']
+            'jobNature', 'positionAdvantage','district', 'hunterJob']
 
 def get_key_list_names():
-    return ['companyLabelList', 'hitags', 'positionLables']
+    return ['companyLabelList', 'hitags', 'positionLables','skillLabels']
 
 
 def add_column_names(origin_data_path, column_names, save_data_path):
@@ -16,8 +16,8 @@ def add_column_names(origin_data_path, column_names, save_data_path):
 
 
 if __name__ == "__main__":
-    origin_path = '/Users/zhouya/Documents/工作/mycode/analyze-lagou/data/jobList_全国.txt'
-    save_path = '/Users/zhouya/Documents/工作/mycode/analyze-lagou/data/jobList_全国_1.txt'
+    origin_path = '/Users/zhouya/Documents/code/analyze-lagou/data/jobList_全国_3月.txt'
+    save_path = '/Users/zhouya/Documents/code/analyze-lagou/data/jobList_全国_3月_1.txt'
     columns = get_key_names() + get_key_list_names()
     add_column_names(origin_path, columns, save_path)
     # a = [[1, 2]]

@@ -1,6 +1,6 @@
 import pandas as pd
 import matplotlib.pyplot as plt
-#不同城市柱状图
+#不同城市数量需求柱状图
 df=pd.read_csv('/Users/zhouya/Documents/工作/mycode/analyze-lagou/data/cleanTest.txt',sep='\t')
 city=df['city'].value_counts()
 print(city)

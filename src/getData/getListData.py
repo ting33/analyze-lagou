@@ -35,8 +35,7 @@ def post_url(url, num):
         'X-Anit-Forge-Code': '0',
         'X-Anit-Forge-Token': 'None',
         'X-Requested-With': 'XMLHttpRequest',
-        'cookie': 'LG_HAS_LOGIN=1; user_trace_token=20201227123216-576d0460-13a3-4014-b4aa-fdd94fed3236; _ga=GA1.2.523400344.1609043537; LGUID=20201227123216-013bb23c-8420-428d-9049-155a1c4fa5f4; JSESSIONID=ABAAAECABFAACEA6F15E4760421ADACD7B013C69CA832B6; showExpriedIndex=1; showExpriedCompanyHome=1; showExpriedMyPublish=1; hasDeliver=42; privacyPolicyPopup=false; WEBTJ-ID=20201227162735-176a34f5c33b47-099e52681e603a-32687907-1024000-176a34f5c3468e; RECOMMEND_TIP=true; sensorsdata2015session=%7B%7D; _gid=GA1.2.1287297771.1609409634; X_MIDDLE_TOKEN=ff094a5f34c07170065b970a841c2545; gate_login_token=8d03852c0ab0cba351381cab30d81ffdf126a2d646b95b6f2b0a63f5563a3eef; LG_LOGIN_USER_ID=1c1e36033fdabc408979b4ce7f7741b22d362fc5fa434b92bb6ef56565aaccf2; _putrc=0E5FF97976740312123F89F2B170EADC; login=true; unick=%E5%91%A8%E9%9B%85; index_location_city=%E5%8C%97%E4%BA%AC; _gat=1; LGSID=20210102213739-bb5572bf-4f66-460a-8e7e-d739434fdfb3; PRE_UTM=m_cf_cpt_baidu_pcbt; PRE_HOST=www.baidu.com; PRE_SITE=https%3A%2F%2Fwww.baidu.com%2Fother.php%3Fsc.000000KS8YIvjbGY6uWacdCzRxGadhgZxDZuL--hAgrpSkHLPucraTUawB2RkxSNN2exqK29jvNRaHF70qJiUUnwZqzoLIXSEJ8HWfy57juvHin0L-0xSGBH9ZRFMIgyYTxhhpoXJ1GPHWfgGkJXMWSgI6DmpqneqEwZXV90mdR24Z5CLQzvomsdic%5FRFvZ7ZGPf38AbycvHcpCcrhPIZGgwVz81.7Y%5FNR2Ar5Od663rj6tJQrGvKD77h24SU5WudF6ksswGuh9J4qt7jHzk8sHfGmYt%5FrE-9kYryqM764TTPqKi%5FnYQZHuukL0.TLFWgv-b5HDkrfK1ThPGujYknHb0THY0IAYqs2v4%5FsKdTvNzgLw4TARqn0K9u7qYXgK-5Hn0IvqzujL0oUhY0ZFWIWYk0ZNzU7qGujYkPHczPj6dPH010Addgv-b5HD1rjT1P1DY0AdxpyfqnH0LrHmzPWm0UgwsU7qGujYknHR1P0KsI-qGujYs0A-bm1dri6KWThnqnWTkPH0%26ck%3D3787.12.112.403.128.330.146.220%26dt%3D1609495372%26wd%3D%25E6%258B%2589%25E9%2592%25A9%26tpl%3Dtpl%5F11534%5F23295%5F19442%26l%3D1522485503%26us%3DlinkName%253D%2525E6%2525A0%252587%2525E5%252587%252586%2525E5%2525A4%2525B4%2525E9%252583%2525A8-%2525E4%2525B8%2525BB%2525E6%2525A0%252587%2525E9%2525A2%252598%2526linkText%253D%2525E3%252580%252590%2525E6%25258B%252589%2525E5%25258B%2525BE%2525E6%25258B%25259B%2525E8%252581%252598%2525E3%252580%252591%2525E5%2525AE%252598%2525E6%252596%2525B9%2525E7%2525BD%252591%2525E7%2525AB%252599%252520-%252520%2525E4%2525BA%252592%2525E8%252581%252594%2525E7%2525BD%252591%2525E9%2525AB%252598%2525E8%252596%2525AA%2525E5%2525A5%2525BD%2525E5%2525B7%2525A5%2525E4%2525BD%25259C%2525EF%2525BC%25258C%2525E4%2525B8%25258A%2525E6%25258B%252589%2525E5%25258B%2525BE%21%2526linkType%253D; PRE_LAND=https%3A%2F%2Fwww.lagou.com%2Flanding-page%2Fpc%2Fsearch.html%3Futm%5Fsource%3Dm%5Fcf%5Fcpt%5Fbaidu%5Fpcbt; Hm_lvt_4233e74dff0ae5bd0a3d81c6ccf756e6=1609582720,1609582720,1609582764,1609594659; X_HTTP_TOKEN=1d8f311350c7d50337649590613aa4d10d196fa2d6; sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%2212459930%22%2C%22%24device_id%22%3A%22171bea348f4b7-09156ce41a17a5-396b7506-1024000-171bea348f5237%22%2C%22props%22%3A%7B%22%24latest_traffic_source_type%22%3A%22%E7%9B%B4%E6%8E%A5%E6%B5%81%E9%87%8F%22%2C%22%24latest_referrer%22%3A%22%22%2C%22%24latest_search_keyword%22%3A%22%E6%9C%AA%E5%8F%96%E5%88%B0%E5%80%BC_%E7%9B%B4%E6%8E%A5%E6%89%93%E5%BC%80%22%2C%22%24os%22%3A%22MacOS%22%2C%22%24browser%22%3A%22Chrome%22%2C%22%24browser_version%22%3A%2286.0.4240.198%22%2C%22lagou_company_id%22%3A%22%22%7D%2C%22first_id%22%3A%22171bea348f4b7-09156ce41a17a5-396b7506-1024000-171bea348f5237%22%7D; Hm_lpvt_4233e74dff0ae5bd0a3d81c6ccf756e6=1609594674; TG-TRACK-CODE=search_code; LGRID=20210102213758-ae49d3d7-a655-417c-8517-fee1d874e4fe; SEARCH_ID=036dd605b5a24082b08566141fd0fe8a'
-
+        'cookie': 'user_trace_token=20210227163256-745d7d2e-b493-44e8-863b-6c6556292afd; __lg_stoken__=67d91f293484edb92bd1de6a6b5f878f2320fc62d67b2e9463a8723fe3428cccec2b25ea28bbfde6825b425a5a6c853d5aad06f678233641a83020366ee5bd920f9068a1b98f; JSESSIONID=ABAAABAABEIABCIEA3F5404D6CB13B598B0FFA9F406C386; WEBTJ-ID=20210227%E4%B8%8B%E5%8D%884:32:57163257-177e29e8ba199a-0e5f00bb921f13-121a4759-1024000-177e29e8ba29f7; LGUID=20210227163257-adfad951-745b-4249-bd7e-59040cd984f5; _ga=GA1.2.1309414705.1614414778; sajssdk_2015_cross_new_user=1; sensorsdata2015session=%7B%7D; Hm_lvt_4233e74dff0ae5bd0a3d81c6ccf756e6=1614414778; _gid=GA1.2.487793097.1614414778; LGSID=20210227213138-2ae5a4b0-8eec-4a52-bc97-61e19b9d1770; PRE_UTM=; PRE_HOST=; PRE_SITE=; PRE_LAND=https%3A%2F%2Fwww.lagou.com%2Fjobs%2Flist%5F%25E6%2595%25B0%25E6%258D%25AE%25E5%2588%2586%25E6%259E%2590%3FlabelWords%3D%26fromSearch%3Dtrue%26suginput%3D; _gat=1; gate_login_token=7ae37c84b649be1193f65814c07edba1c322b9b8b227a283f8e99e81c9b07be8; LG_LOGIN_USER_ID=34d41090bfa57e0767f491a0f681559338a351878213853fc9b17f3c9c9d01ee; LG_HAS_LOGIN=1; _putrc=0E5FF97976740312123F89F2B170EADC; login=true; unick=%E5%91%A8%E9%9B%85; showExpriedIndex=1; showExpriedCompanyHome=1; showExpriedMyPublish=1; hasDeliver=42; privacyPolicyPopup=false; index_location_city=%E4%B8%8A%E6%B5%B7; RECOMMEND_TIP=true; TG-TRACK-CODE=index_search; X_HTTP_TOKEN=293b0e12237a50625472344161b7ef16b0aeef9971; sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%2212459930%22%2C%22first_id%22%3A%22177e29e8f148cf-03752c7e1e6ec-121a4759-1024000-177e29e8f15524%22%2C%22props%22%3A%7B%22%24latest_traffic_source_type%22%3A%22%E7%9B%B4%E6%8E%A5%E6%B5%81%E9%87%8F%22%2C%22%24latest_search_keyword%22%3A%22%E6%9C%AA%E5%8F%96%E5%88%B0%E5%80%BC_%E7%9B%B4%E6%8E%A5%E6%89%93%E5%BC%80%22%2C%22%24latest_referrer%22%3A%22%22%2C%22%24os%22%3A%22MacOS%22%2C%22%24browser%22%3A%22Chrome%22%2C%22%24browser_version%22%3A%2288.0.4324.192%22%2C%22lagou_company_id%22%3A%22%22%7D%2C%22%24device_id%22%3A%22177e29e8f148cf-03752c7e1e6ec-121a4759-1024000-177e29e8f15524%22%7D; Hm_lpvt_4233e74dff0ae5bd0a3d81c6ccf756e6=1614432746; LGRID=20210227213429-7cb73f8b-0f2f-48e6-824e-f107bf7a42a2; SEARCH_ID=1d39b83c151146c29693ca4a869a2e17'
     }
     data = {
         'first': 'true',
@@ -66,16 +65,16 @@ def correct_list(list):
 def get_key_names():
     return ['positionId', 'city', 'companyShortName', 'companyId', 'companySize', 'createTime', 'education',
             'famousCompany', 'financeStage', 'industryField', 'salary', 'salaryMonth', 'workYear',
-            'jobNature', 'positionAdvantage']
+            'jobNature', 'positionAdvantage', 'district', 'hunterJob']
 
 
 def get_key_list_names():
-    return ['companyLabelList', 'hitags', 'positionLables']
+    return ['companyLabelList', 'hitags', 'positionLables', 'skillLabels']
 
 
 # 处理每一页数据
 def get_page_info(job_list):
-    with open('/Users/zhouya/Documents/工作/mycode/analyze-lagou/data/jobList_上海.txt', 'a', encoding="utf-8") as wf:
+    with open('../jobList_上海_3月.txt', 'a', encoding="utf-8") as wf:
         for i in job_list:
             cur_str = ''
             for key in get_key_names():
@@ -92,7 +91,7 @@ def main(url, city):
     first_page = post_url(url, 1)
     totalCount = first_page['content']['positionResult']['totalCount']
     # 保存一下每个城市爬出来数据总量
-    with open('/Users/zhouya/Documents/工作/mycode/analyze-lagou/data/jobCount_数据分析.txt', 'a', encoding="utf-8") as wf:
+    with open('../jobCount_数据分析_3月.txt', 'a', encoding="utf-8") as wf:
         wf.write(city + '\t' + str(totalCount) + '\n')
     num = get_page_num(totalCount)
     print("数据分析开发相关职位总数:{},总页数为:{}".format(totalCount, num))
@@ -102,15 +101,14 @@ def main(url, city):
         job_list = page_data['content']['positionResult']['result']
         get_page_info(job_list)
         print("第{}页数据".format(i))
-        time.sleep(100)
+        time.sleep(50)
 
 
 if __name__ == "__main__":
-    #全国
-    # url = 'https://www.lagou.com/jobs/positionAjax.json?px=default&needAddtionalResult=false'
-    # main(url, '全国')
+    # 全国
+    url = 'https://www.lagou.com/jobs/positionAjax.json?px=default&needAddtionalResult=false'
+    main(url, '全国')
     # url='https://www.lagou.com/jobs/positionAjax.json?px=default&city=%E5%8C%97%E4%BA%AC&needAddtionalResult=false'
     # main(url, '北京')
-    url = 'https://www.lagou.com/jobs/positionAjax.json?px=default&city=%E4%B8%8A%E6%B5%B7&needAddtionalResult=false'
-    main(url, '上海')
-
+    # url = 'https://www.lagou.com/jobs/positionAjax.json?px=default&city=%E4%B8%8A%E6%B5%B7&needAddtionalResult=false'
+    # main(url, '上海')
